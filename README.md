@@ -4,16 +4,22 @@
 **RGM:** 34154736  
 **Disciplina:** Projeto Integrador Transdisciplinar em Engenharia de Software II  
 
+---
+
 ## 1. Visão Geral do Projeto
-Desenvolvimento e implementação de uma solução de e-commerce mobile/web para automação de vendas, vitrine digital, gestão de pedidos e suporte à logística de uma loja de cupcakes gourmet. A solução prioriza a engenharia de requisitos ágeis e arquitetura modular no padrão MVC.
+Desenvolvimento de uma solução completa de e-commerce e vitrine digital para automação de pedidos e suporte à operação de uma loja de cupcakes gourmet. O projeto adota uma abordagem ágil voltada à prototipagem visual e arquitetura *no-code*, garantindo eficiência na entrega, validação de requisitos de negócio e excelente experiência do usuário.
 
-## 2. Arquitetura e Tecnologias
-* **Padrão Arquitetonial:** MVC (Model-View-Controller)
-* **Banco de Dados (SGBD):** MySQL (Modelo Relacional Normalizado)
-* **Front-End:** Interfaces responsivas para vitrine e carrinho de compras
-* **Back-End:** Processamento de requisições e persistência de dados
+## 2. Abordagem Metodológica (No-Code)
+A arquitetura do sistema foi concebida utilizando metodologias ágeis e ferramentas visuais de prototipagem (*no-code*):
+* **Modelagem de Processos:** Mapeamento do fluxo de clientes, escolha de produtos, carrinho e finalização de pedidos.
+* **Prototipagem de Interfaces:** Desenvolvimento de telas responsivas (vitrine, carrinho e checkout) focadas na usabilidade.
+* **Vantagem Estratégica:** Foco total na experiência do utilizador e regras de negócio sem a necessidade de codificação tradicional de back-end.
 
-## 3. Estrutura de Ficheiros
-* `/database/schema.sql` - Script DDL para criação da base de dados relacional.
-* `/docs/` - Documentação de requisitos, diagramas UML e laudos de testes por pares.
-* `/src/` - Estrutura de código-fonte da aplicação (Controller, Model, View).
+## 3. Estrutura do Banco de Dados
+Apesar da abordagem visual na interface, o projeto conta com um modelo relacional normalizado para suporte aos dados da loja, estruturado no script DDL localizado em:
+* `/database/schema.sql` — Contém as tabelas de **cliente**, **cupcake** e **pedido**.
+
+## 4. Estrutura do Repositório
+* `/database/` - Script SQL estrutural do SGBD relacional.
+* `/docs/` - Documentação acadêmica, diagramas de fluxo e laudo de testes por pares.
+* `/src/` - Artefatos visuais e de suporte ao front-end *no-code*.
