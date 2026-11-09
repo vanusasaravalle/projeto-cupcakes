@@ -30,5 +30,4 @@ Apesar da abordagem visual na interface, o projeto conta com um modelo relaciona
 ## 4. Estrutura do Repositório
 - `/database/` - Script SQL estrutural do SGBD relacional (`schema.sql`).
 - `/docs/` - Documentação acadêmica, diagramas de fluxo e laudo de testes por pares (`laudo_testes.md`).
-- `/src/` - Artefatos visuais e de suporte ao front-end *no-code*.
 - `README.md` - Apresentação principal do projeto e links de acesso.
